@@ -1,0 +1,389 @@
+body {
+    background-color: #004b88;
+    font-size: 20px;
+    color: white;
+}
+
+.title h1 {
+    top: 20px;
+    background-color: #000000;
+    color: #0890ff;
+    height: 50px;
+    width: 220px;
+    border-radius: 10px;
+    text-decoration: underline none;
+    text-align: center;
+    top: 2%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.button2 {
+    cursor: pointer;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 45px;
+    background: #0890ff;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 22.5px;
+    margin-top: 20px;
+}
+
+.button2:hover {
+    cursor: pointer;
+    background: #ff0000;
+    color: #ffffff;
+}
+
+.logoutbutton {
+    cursor: pointer;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    outline: none;
+    width: 80px;
+    height: 25px;
+    background: #ff0000;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 22.5px;
+    margin-top: 20px;
+}
+
+.BackButton {
+    cursor: pointer;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    outline: none;
+    width: 80px;
+    height: 25px;
+    background: #004b88;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 22.5px;
+    margin-top: 20px
+}
+
+
+/*-----------------------Index Page CSS-------------------------*/
+
+.indexpage {
+    width: 350px;
+    height: 500px;
+    background: #000000;
+    color: rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 250px 30px;
+    border-radius: 10px;
+}
+
+.logoindex {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: calc(50% - 100px);
+}
+
+.indexpagepara {
+    text-align: center;
+    font-size: 30px;
+}
+
+.indexbutton {
+    cursor: pointer;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 45px;
+    background: #0890ff;
+    color: #ffffff;
+    font-size: 30px;
+    border-radius: 22.5px;
+    margin-top: 20px;
+}
+
+.indexbutton:hover {
+    cursor: pointer;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 45px;
+    background: #ff0000;
+    color: #ffffff;
+    font-size: 30px;
+    border-radius: 22.5px;
+}
+
+
+/* --------------------------Login Page CSS---------------------*/
+
+.loginpagebody {
+    background-image: url(/Images/LoginPageBGBlured.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.loginbox h1 {
+    text-align: center;
+}
+
+.loginbox {
+    width: 320px;
+    height: 500px;
+    background: #000;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+    border-radius: 10px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: calc(50% - 50px);
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.loginbox input[type="text"],
+.loginbox input[type="password"] {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #0890ff;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover {
+    background: #ff0000;
+    cursor: pointer;
+}
+
+.loginbox a {
+    color: rgb(126, 126, 126);
+}
+
+.loginbox a:visited {
+    color: white;
+}
+
+
+/*-------------------------- Registration --------------------*/
+
+.register {
+    width: 450px;
+    height: 650px;
+    background: #000;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -40%);
+    box-sizing: border-box;
+    padding: 0px 30px;
+    border-radius: 10px;
+}
+
+.register input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    background: #0890ff;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.register input[type="submit"]:hover {
+    background: #ff0000;
+    cursor: pointer;
+}
+
+.register input[type="text"],
+input[type="password"],
+input[type="number"],
+select {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.FontBlack {
+    color: black;
+}
+
+
+/*--------------------- After Login ----------------------*/
+
+.AfterLoginPage {
+    width: 350px;
+    height: 320px;
+    background: #000;
+    color: white;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -40%);
+    box-sizing: border-box;
+    padding: 0px 30px;
+    border-radius: 10px;
+}
+
+.AfterLoginPage input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    background: #0890ff;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.AfterLoginPage input[type="submit"]:hover {
+    background: #ff0000;
+    cursor: pointer;
+}
+
+
+/*-------------------------- Forgot pass --------------------------*/
+
+.ForgotpassPage_1 {
+    width: 450px;
+    height: 250px;
+    background: #000;
+    color: white;
+    top: 20%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -40%);
+    box-sizing: border-box;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.ForgotpassPage_1 input[type="text"],
+input[type="password"],
+input[type="number"] {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.ForgotpassPage_2 {
+    width: 450px;
+    height: 350px;
+    background: #000;
+    color: white;
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -40%);
+    box-sizing: border-box;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.ForgotpassPage_2 input[type="text"],
+input[type="password"],
+input[type="number"] {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+/*-------------------------- Menu farmer page --------------------------*/
+
+.MenupageFarmer {
+    width: 350px;
+    height: 550px;
+    background: #000;
+    color: white;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -40%);
+    box-sizing: border-box;
+    padding: 0px 30px;
+    border-radius: 10px;
+}
+
+.Unorderedlist {
+    list-style: none;
+}
+
+
+/*-------------------------- Menu buyer page --------------------------*/
+
+.MenupageBuyer {
+    width: 350px;
+    height: 550px;
+    background: #000;
+    color: white;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -40%);
+    box-sizing: border-box;
+    padding: 0px 30px;
+    border-radius: 10px;
+}
