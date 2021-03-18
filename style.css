@@ -134,7 +134,7 @@ body {
 /* --------------------------Login Page CSS---------------------*/
 
 .loginpagebody {
-    background-image: url(/Images/LoginPageBGBlured.png);
+    background-image: url(/images/LoginPageBGBlured.png);
     background-size: cover;
     height: 100%;
     width: 100%;
