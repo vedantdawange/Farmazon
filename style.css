@@ -67,7 +67,8 @@ body {
     color: #ffffff;
     font-size: 18px;
     border-radius: 22.5px;
-    margin-top: 20px
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 
@@ -443,10 +444,6 @@ input[type="number"] {
 }
 
 .productupload p {
-    border: none;
-    background: transparent;
-    outline: none;
-    color: white;
     margin-top: 5px;
     margin-bottom: 0px;
 }
@@ -454,4 +451,67 @@ input[type="number"] {
 .FileUpload {
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+
+/*-------------------------- fruits --------------------------*/
+
+.fruitsmenu {
+    width: 450px;
+    background: #000;
+    color: white;
+    top: 150%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -40%);
+    box-sizing: border-box;
+    padding: 0px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.fruitsmenu img {
+    width: 250px;
+}
+
+.cartbtn {
+    cursor: pointer;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    outline: #ffffff 2px;
+    width: 130px;
+    height: 40px;
+    background: #ff7f08;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.cartbtn:hover {
+    cursor: pointer;
+    background: #ff0000;
+    color: #ffffff;
+}
+
+
+/*-------------------------- Vegetables Menu --------------------------*/
+
+.vegmenu {
+    width: 450px;
+    background: #000;
+    color: white;
+    top: 150%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -40%);
+    box-sizing: border-box;
+    padding: 0px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.vegmenu img {
+    width: 250px;
 }
