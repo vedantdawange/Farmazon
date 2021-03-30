@@ -13,20 +13,40 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
 
+
 const auth = firebase.auth();
+
 
 function signUp() {
 
-    var name = document.getElementById("name");
     var email = document.getElementById("email");
     var password = document.getElementById("password");
 
-    var mob = document.getElementById("mobno");
-    var age = document.getElementById("age");
-    var gender = document.getElementById("gender");
-
-    const promise = auth.createUser(name.value, email.value, password.value, mob.value, age.value, gender.value);
+    const promise = auth.createUserWithEmailAndPassword(email.value, password.value);
     promise.catch(e => alert(e.message));
 
     alert("Signed Up");
+}
+
+
+
+function signIn() {
+
+    var email = document.getElementById("email");
+    var password = document.getElementById("password");
+
+    const promise = auth.signInWithEmailAndPassword(email.value, password.value);
+    promise.catch(e => alert(e.message));
+
+
+
+
+}
+
+
+function signOut() {
+
+    auth.signOut();
+    alert("Signed Out");
+
 }
