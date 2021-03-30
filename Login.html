@@ -5,6 +5,9 @@
     <meta charset="UTF-8" />
     <title>Farmazon</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="javascript.js"></script>
 </head>
 
 <body class="loginpagebody">
@@ -19,9 +22,9 @@
         <h1>Login</h1>
         <form action="">
             <p>Username:</p>
-            <input type="text" name="" placeholder="Enter Username" required />
+            <input type="text" name="" placeholder="Enter Username" required id="email" />
             <p>Password:</p>
-            <input type="password" name="" placeholder="Enter Password" required />
+            <input type="password" name="" placeholder="Enter Password" required id="=pass" />
             <input type="submit" value="Login" formaction="AfterLogin.html" />
             <a href="ForgotPassword.html">Forgot Password?</a><br />
             <a href="Registeration.html">Create an Account</a>

@@ -3,8 +3,12 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Farmazon</title>
+    <title>Farmazon-Regester</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+    <script src="javascript.js"></script>
 </head>
 
 <body>
@@ -22,28 +26,25 @@
                     <h1> Registration Form</h1>
                 </center>
                 <hr>
-                <label> Firstname : </label>
-                <input type="text" name="firstname" placeholder="Firstname" required /><br>
-                <label> Middlename: </label>
-                <input type="text" name="middlename" placeholder="Middlename" size="15" /><br>
-                <label> Lastname: </label>
-                <input type="text" name="lastname" placeholder="Lastname" size="15" required /><br>
+                <label> Name : </label>
+                <input type="text" name="firstname" placeholder="Firstname" required id="name"><br>
+
                 <label> Email id: </label>
-                <input type="text" name="email id" placeholder="Email id" size="30" required /><br>
+                <input type="text" name="email id" placeholder="Email id" size="30" required id="email" /><br>
                 <label> Username: </label>
-                <input type="text" name="username" placeholder="Username" size="25" required /><br>
+                <input type="text" name="username" placeholder="Username" size="25" required id="username" /><br>
                 <label> Password: </label>
-                <input type="password" name="password" placeholder="Password" size="25" required /><br>
+                <input type="password" name="password" placeholder="Password" size="25" required id="password" /><br>
                 <label> Re-enter Password: </label>
                 <input type="password" name="re-enter password" placeholder="Re-enter Password" size="25" required /><br>
                 <label> Mobile Number: </label>
-                <input type="number" name="mobile number" placeholder="Mobile Number" size="10" required /><br>
+                <input type="number" name="mobile number" placeholder="Mobile Number" size="10" id="mobno" required /><br>
                 <label> Age: </label>
-                <input type="text" name="age" placeholder="Age" size="3" required /><br>
+                <input type="text" name="age" placeholder="Age" size="3" required id="age" /><br>
 
                 <div>
                     <label> Gender :</label>
-                    <select>
+                    <select id="gender">
                         <option class="FontBlack" value="Select">Select</option>
                         <option class="FontBlack" value="Male">Male</option>
                         <option class="FontBlack" value="Female">Female</option>
@@ -54,15 +55,14 @@
                 <div>
                     <label> Catergory :</label>
                     <br>
-                    <input type="radio" value="Farmer" name="gender"> Farmer
-                    <input type="radio" value="Buyer" name="gender"> Buyer
+                    <input type="radio" value="Farmer" name="Catergory"> Farmer
+                    <input type="radio" value="Buyer" name="Catergory"> Buyer
                 </div>
 
                 <input type="checkbox" value="I Accept Terms And Contitions" required>I accept the <a href="TermsAndConditions.html" target="blank">Terms and Contitions</a>
 
-
-                <input type="submit" value="Submit" formaction="AfterLogin.html">
-
+                <a href="Login.html">
+                    <button class="button2" onclick="signUp()">Signup</button></a>
 
         </form>
         </div>
