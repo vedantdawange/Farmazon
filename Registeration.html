@@ -5,8 +5,32 @@
     <meta charset="UTF-8" />
     <title>Farmazon-Regester</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
 
-    <script src="javascript.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyDihtrxLmXqqzsVTpMfyv99go-RVijabOU",
+            authDomain: "farmazon-fde8e.firebaseapp.com",
+            projectId: "farmazon-fde8e",
+            storageBucket: "farmazon-fde8e.appspot.com",
+            messagingSenderId: "1055915554009",
+            appId: "1:1055915554009:web:e79951b1c71b670f53fac8",
+            measurementId: "G-61S94CLYJG"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+
+    <script type="text/javascript" src="javascript.js"></script>
 </head>
 
 <body>
@@ -29,8 +53,7 @@
 
                 <label> Email id: </label>
                 <input type="text" name="email id" placeholder="Email id" required id="email" /><br>
-                <label> Username: </label>
-                <input type="text" name="username" placeholder="Username" size="25" required id="username" /><br>
+
                 <label> Password: </label>
                 <input type="password" name="password" placeholder="Password" required id="password" /><br>
                 <label> Re-enter Password: </label>
@@ -51,8 +74,8 @@
                 </div>
 
                 <div>
-                    <label> Catergory :</label>
-                    <select id="gender">
+                    <label> Category :</label>
+                    <select id="category">
                         <option class="FontBlack" value="Select">Select</option>
                         <option class="FontBlack" value="Farmer">Farmer</option>
                         <option class="FontBlack" value="Customer">Customer</option>
@@ -62,11 +85,13 @@
 
                 <input type="checkbox" value="I Accept Terms And Contitions" required>I accept the <a href="TermsAndConditions.html" target="blank">Terms and Contitions</a>
 
-                <a href="Login.html">
-                    <button class="button2" onclick="signUp()">Signup</button></a>
+
+                <button class="button2" id="signup">Signup</button>
 
         </form>
         </div>
+
+
 
 </body>
 
