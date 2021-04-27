@@ -161,7 +161,6 @@ body {
 
 .loginbox {
     width: 320px;
-    height: 350px;
     background: #000;
     color: white;
     top: 50%;
@@ -171,6 +170,10 @@ body {
     box-sizing: border-box;
     padding: 50px 30px;
     border-radius: 10px;
+}
+
+.loginbox p a {
+    color: #0890ff;
 }
 
 .avatar {
@@ -508,5 +511,100 @@ input[type="number"] {
 }
 
 .CropMenu img {
+    width: 250px;
+}
+
+
+/*-------------------------- Video Menu-------------------------*/
+
+.VideoMenuPage {
+    width: 350px;
+    background: #000;
+    color: white;
+    top: 45%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -40%);
+    box-sizing: border-box;
+    padding: 0px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.UploadBtn {
+    cursor: pointer;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 25px;
+    background: #88001d;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 22.5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+}
+
+
+/*-------------------------- Crops Video-------------------------*/
+
+.cropsVideoPage {
+    width: 350px;
+    background: #000;
+    color: white;
+    top: 140%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -40%);
+    box-sizing: border-box;
+    padding: 0px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.cropsVideoPage iframe {
+    width: 250px;
+}
+
+
+/*-------------------------- Fruits Video-------------------------*/
+
+.FruitSVideoPage {
+    width: 350px;
+    background: #000;
+    color: white;
+    top: 140%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -40%);
+    box-sizing: border-box;
+    padding: 0px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.FruitSVideoPage iframe {
+    width: 250px;
+}
+
+.VegVidPage {
+    width: 350px;
+    background: #000;
+    color: white;
+    top: 140%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -40%);
+    box-sizing: border-box;
+    padding: 0px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.VegVidPage iframe {
     width: 250px;
 }
