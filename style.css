@@ -608,3 +608,21 @@ input[type="number"] {
 .VegVidPage iframe {
     width: 250px;
 }
+
+
+/*-------------------------- Fruits Video-------------------------*/
+
+.helppage {
+    width: 350px;
+    background: #000;
+    color: white;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -40%);
+}
